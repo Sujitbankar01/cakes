@@ -68,35 +68,25 @@
     border-radius: 40px;
 }
 
-
 .about{
-    margin-top: 40px;
     display: flex;
+   
+            margin-top: 50px;
+            margin-left: 80px;
+            margin-right: 80px;
+            border: double;
+}
+.img{
+    margin-top: 10px;
     margin: 10px;
+    height: 400px;
+    width: 500px;
+}
+.contant{
+    margin-left: 50px;
+    height: 200px;
 }
 
-.about .img {
-   padding-left: 80px;
-    flex: 70px;
-    margin-top: 40px;
-    margin-bottom: 50px;
-}
-
-.about .img img {
-    width: 600px;
-   border: solid black 2px;
-   border-radius: 0 10 0 10;
-   
-}
-
-.about
- .content {
-    flex: 500px;
-   padding-left: 50px;
-   margin-top: 40px;
-   margin-bottom: 50px
-   
-}
 .colur{
     color: #594a4e;
 }
@@ -130,6 +120,7 @@ padding: 7px;
 border-radius: 5px;
 background-color:#ff3333;
 text-align: center;
+margin-top: 20px;
 }
 .text-box{
     height: 40px;
@@ -143,7 +134,7 @@ text-align: center;
 }
 .h1{
     position: absolute;
-    top: 310%;
+    top: 305%;
     left: 37%;
     text-align:center ;
 }
